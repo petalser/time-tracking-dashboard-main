@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor Time tracking dashboard</title>
 </head>
-<body>
 
+<body>
+  <section class="dashboard">
+    <div class="dash_content">
+      <div class="dash_person">
+        <div class="infocard">
+          <img src="images/image-jeremy.png" alt="photo" class="infocard_photo">
+          <div class="infocard_text">
+            <p class="infocard_subtitle">Report for</p>
+            <h3 class="infocard_title">Jeremy Robson</h3>
+          </div>
+        </div>
+        <div class="view_selector">
+          <div class="view_selector_item">Daily</div>
+          <div class="view_selector_item view_selector_item--active">Weekly</div>
+          <div class="view_selector_item">Monthly</div>
+        </div>
+      </div>
+      <div class="dash_item">
+        <article class="tracking-card">
+          <header class="tracking-card_header"></header>
+          <div class="tracking-card_body">
+            <div class="tracking-card_time">
+            </div>
+            <div class="tracking-card_prev-period">
+            </div>
+          </div>
+          </header>
+        </article>
+      </div>
+    </div>
+  </section>
   Report for
   Jeremy Robson
 
@@ -75,6 +100,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div
 </body>
 </html>

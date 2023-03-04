@@ -98,7 +98,7 @@ body {
 }
 
 .view_selector_item {
-    font-size: 12px;
+    font-size: var(--fs-base);
     color: var(--blue-200);
     cursor: pointer;
 }
@@ -172,7 +172,7 @@ body {
 }
 .tracking-card_prev-period {
     color: var(--blue-200);
-    font-size: 12px;
+    font-size: var(--fs-base);
     font-weight: var(--weight-light);
 }
 .dash_item:hover .tracking-card {
